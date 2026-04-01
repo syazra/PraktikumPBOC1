@@ -6,7 +6,7 @@ Berdasarkan kondisi tersebut buatlah desain class diagram yang tepat dengan mema
 
 Contoh tampilan informasi detail pegawai untuk Dosen Tetap:
 <p align="center">
-  <img src="img/output.png" width="500"/>
+  <img src="img/output.png" width="700"/>
 </p>
 
 Keterangan contoh tersebut:
