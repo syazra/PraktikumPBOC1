@@ -25,3 +25,7 @@ public class Asersi2 {
         System.out.println("keliling lingkaran = " + kelilingLingkaran);
     }
 }
+
+// Ketika jariJari di-assign 0, program tetap berjalan dan mengeluarkan output "keliling lingkaran = 0.0"
+// Hal tersebut terjadi karena assertion belum diaktifkan, cara mengaktifkannya dengan cara java -ea Asersi2
+// Lebih baik menggunakan if else agar pengecekan selalu dilakukan dan dapat mencegah nilai yang tidak valid

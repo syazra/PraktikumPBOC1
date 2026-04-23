@@ -4,12 +4,14 @@
 /* Tanggal    : 14/04/2026 - 15.40 */
 
 public class AngkaSial {
+
     public void cobaAngka(int angka) throws AngkaSialException {
         if (angka == 13) {
             throw new AngkaSialException();
         }
-        System.out.println();
+        System.out.println(angka + " bukan angka sial");
     }
+
     public static void main(String[] args) {
         AngkaSial as = new AngkaSial();
         try {
@@ -23,3 +25,7 @@ public class AngkaSial {
         }
     }
 }
+
+// Ketika exception terjadi, baris 12 tidak dieksekusi karena langsung dihentikan oleh perintah throw
+// Program kemudian berpindah ke catch, sehingga baris 21 dieksekusi untuk menangani exception yang terjadi
+// Akibatnya, cobaAngka(12) tidak dieksekusi karena program sudah berpindah ke catch
